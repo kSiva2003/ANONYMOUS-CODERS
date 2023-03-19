@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/736x/d5/5b/04/d55b043d31ae05707ea67227ac827bac.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#ResponseText {
+    color: #2c2c2c;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#InputBox {
+    background-color: #0b0614;
+    color: #e5e2e2;
+    text-align: center;
+    font-size: 27px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
